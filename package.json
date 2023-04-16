@@ -1,0 +1,27 @@
+{
+  "name": "streamer-helper",
+  "version": "1.0.0",
+  "description": "A bot that helps my dum brain",
+  "main": "main.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DreamyProtect/streamer-helper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DreamyProtect/streamer-helper/issues"
+  },
+  "homepage": "https://github.com/DreamyProtect/streamer-helper#readme",
+  "dependencies": {
+    "node-json-db": "^2.2.0",
+    "parse-duration": "^1.0.3",
+    "tmi.js": "^1.8.5",
+    "websocket": "^1.0.34",
+    "winston": "^3.8.2"
+  }
+}
