@@ -5,7 +5,8 @@
   "main": "main.js",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint:js": "eslint *.js"
   },
   "repository": {
     "type": "git",
@@ -18,10 +19,16 @@
   },
   "homepage": "https://github.com/DreamyProtect/streamer-helper#readme",
   "dependencies": {
+    "@twurple/api": "^6.1.1",
+    "@twurple/auth": "^6.1.1",
+    "@twurple/chat": "^6.1.1",
     "node-json-db": "^2.2.0",
     "parse-duration": "^1.0.3",
     "tmi.js": "^1.8.5",
     "websocket": "^1.0.34",
     "winston": "^3.8.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.38.0"
   }
 }

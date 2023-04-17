@@ -55,7 +55,7 @@ client.on('connected', (addr, port) => { logger.info(`Connected to ${addr}:${por
 
 client.on('message', onMessageHandler);
 
-function onMessageHandler (channel, tags, msg, self) {
+function onMessageHandler (channel, tags, _, self) {
   if (self) { return; }
 
   if (config.twitch_chatbot.shoutouts.includes(tags.username)){
@@ -69,7 +69,7 @@ function onMessageHandler (channel, tags, msg, self) {
           return;
         }
         const now = Date.now();
-        updatedb = data.map((elem) => {
+        const updatedb = data.map((elem) => {
           if ((elem.username === tags.username) && (now - elem.ttl > parseDuration(config.twitch_chatbot.shoutouts_ttl, 'ms'))){
             client.say(channel, `!so ${tags.username}`);
             logger.info(`Shoutouted ${tags.username} successfully !`);
