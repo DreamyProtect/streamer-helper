@@ -1,4 +1,4 @@
-FROM node:19.9-alpine3.17
+FROM node:19.9.0-bullseye
 
 WORKDIR /app
 
