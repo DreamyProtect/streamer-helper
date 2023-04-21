@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/DreamyProtect/streamer-helper/compare/v1.0.2...v1.0.3) (2023-04-21)
+
+
+### Bug Fixes
+
+* ci build is tagged as unknown/unknown in github container registry ([9cd967b](https://github.com/DreamyProtect/streamer-helper/commit/9cd967b9bfc5891a6a7808e2375f7fdaefdc05cf))
+
 ## [1.0.2](https://github.com/DreamyProtect/streamer-helper/compare/v1.0.1...v1.0.2) (2023-04-21)
 
 
