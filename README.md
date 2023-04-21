@@ -56,6 +56,8 @@ docker run \
 
 The bot should connect to the configured chats and shoutout people automatically.
 
+> Note: The bot is currently built for linux/amd64, linux/arm64 and linux/arm/v7 platforms.
+
 ### Getting an access token
 
 You must follow [Twitch's documentation](https://dev.twitch.tv/docs/authentication/) to register an app and get an access-token for the bot.
