@@ -1,6 +1,6 @@
 {
   "name": "streamer-helper",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A bot that helps my dum brain",
   "main": "main.js",
   "private": true,

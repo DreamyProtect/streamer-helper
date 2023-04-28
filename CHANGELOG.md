@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/DreamyProtect/streamer-helper/compare/v1.0.3...v1.0.4) (2023-04-28)
+
+
+### Bug Fixes
+
+* image doesn't get built for armv7 by workflow ([40c513f](https://github.com/DreamyProtect/streamer-helper/commit/40c513f9d27993a4a7310ff616ffdb986dfaa7e8))
+
 ## [1.0.3](https://github.com/DreamyProtect/streamer-helper/compare/v1.0.2...v1.0.3) (2023-04-21)
 
 
